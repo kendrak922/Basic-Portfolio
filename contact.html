@@ -12,47 +12,50 @@
     <title>Kendra's Bio</title>
 </head>
 <body>
+<header>
+<div class= "wrapper">
 <div class="nav">
   <nav>
     <h1 class="me">Kendra</h1>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
       <a href="#">Contact</a> 
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html">About</a>
   </nav> 
 </div>
-<div class= "wrapper">
+</header>
 <!-- Content -->
 <form>
 <div class="content">
-    <label>
-        Name:
-        <input type="text">
-    </label>
-</div>
-<div>
-    <label>
-        Email:
-        <input type="text">
-  </label></div>
-    <div> 
-    <label>Message:</label>
-        <textarea></textarea>
-    </div>
-</form>
-
-<!-- SideBar -->
-<div class="sidebar">
-<h2>Connect with Me</h2>
-<ul>
-    <li><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-64.png" alt="Github"></li>
-    <li><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-64.png" alt"Linkedin"></li>
-    <li><img src="https://cdn4.iconfinder.com/data/icons/socialcones/508/StackOverflow-64.png" alt"Stack Overflow"></li>
+    <h1>Contact</h1>
+    <ul>
+    <li>
+    <label for="name"> Name: </label>
+        <input type="text" placeholder="John Doe" required="required">
+   </li>
+   <li>
+    <label for="email" placeholder="email@gmail.com" required="required">
+        Email:</label>
+        <input type="text" name="message" required="required">
+    </li> 
+    <label for="message">Message:</label>
+        <textarea name="message" required="required"></textarea>
+</li>
 </ul>
+<input type="submit">
+</form>
 </div>
+<!-- SideBar -->
+ <section class="sidebar">
+   <h2>Connect with Me</h2>
+     <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-64.png" alt="Github"></a>
+     <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-64.png" alt"Linkedin"></a>
+     <a href"#"><img src="https://cdn4.iconfinder.com/data/icons/socialcones/508/StackOverflow-64.png" alt"Stack Overflow"></a>
+ </div>
+</section>
 </div>
+ </body>
 <!-- footer -->
 <footer class="footer">
     &copyKendra2018
 </footer>
-</body>
 </html>
